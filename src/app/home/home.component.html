@@ -1,0 +1,15 @@
+<section class="hero">
+  <h2>Welcome to Angular App</h2>
+  <p>A modern web application built with Angular</p>
+  <button class="cta-button">Get Started</button>
+</section>
+
+<section class="features">
+  <h3>Features</h3>
+  <div class="feature-grid">
+    <div class="feature-card" *ngFor="let feature of features">
+      <h4>{{ feature.title }}</h4>
+      <p>{{ feature.description }}</p>
+    </div>
+  </div>
+</section>

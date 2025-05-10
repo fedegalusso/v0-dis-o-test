@@ -1,0 +1,20 @@
+<div class="about-container">
+  <section class="about-section">
+    <h2>About Us</h2>
+    <p>
+      We are a dedicated team of developers passionate about creating high-quality web applications.
+      Our mission is to deliver exceptional user experiences through innovative technology solutions.
+    </p>
+  </section>
+
+  <section class="team-section">
+    <h3>Our Team</h3>
+    <div class="team-grid">
+      <div class="team-member" *ngFor="let member of teamMembers">
+        <h4>{{ member.name }}</h4>
+        <p class="role">{{ member.role }}</p>
+        <p class="bio">{{ member.bio }}</p>
+      </div>
+    </div>
+  </section>
+</div>
